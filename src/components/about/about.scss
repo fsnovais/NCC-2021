@@ -1,3 +1,19 @@
 .about {
-    background-color: coral;
+    background-color: white;
+    align-items: center;
+    padding: 10rem;
+    h4{
+        color: rgb(110, 9, 110);
+        font-size: 30px;
+        padding: 1rem;
+        font-weight: bold;
+        padding-bottom: 3rem;
+    }
+    text{
+        text-align: center;
+        .paragrafo{
+            font-size: 30px; 
+
+        }
+    }
 }
