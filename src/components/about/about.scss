@@ -1,19 +1,20 @@
+@import "../../global.scss";
 .about {
     background-color: white;
-    align-items: center;
-    padding: 10rem;
-    h4{
-        color: rgb(110, 9, 110);
-        font-size: 30px;
-        padding: 1rem;
-        font-weight: bold;
-        padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10vw;
+    box-sizing: border-box;
+    .title{
+        color: $mainColor;
+        margin-bottom: 20px;
     }
-    text{
-        text-align: center;
-        .paragrafo{
-            font-size: 30px; 
-
-        }
+    .text{
+        
+        width: calc(100vw - 20rem);
+        box-sizing: inherit;
+        font-size: 20px;
     }
 }
