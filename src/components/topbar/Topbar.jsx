@@ -13,7 +13,7 @@ export default function Topbar() {
                         <a href="#">ICPC</a>
                         <a href="#">Sites de interesse</a>
                     </div>
-                <a className="cta" href="#"><button>Inscreva-se</button></a>
+                <a className="cta" href="#" target="_blank"> <button>Inscreva-se</button></a>
             </div>
         </div>
     )
