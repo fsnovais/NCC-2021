@@ -4,19 +4,16 @@ export default function Topbar() {
     return (
         <div className="topbar">
             <div className="wrapper">
-                <div className="left">
-                    <a href="#intro">
-                        <div className="imgContainer">
-                        <img src="assets/logo.png" alt="logo" />
-                        </div>
+            <a href="#intro">
+                        <img className="logo" src="assets/logo.png" alt="logo" />
                     </a>
-                </div>
-                <div className="right">
-                    <a href="#">Home</a>
-                    <a href="#">ICPC</a>
-                    <a href="#">Sites de interesse</a>
-                    <a href="#">Inscreva-se</a>
-                </div>
+
+                    <div className="itemContainer">
+                        <a href="#">Home</a>
+                        <a href="#">ICPC</a>
+                        <a href="#">Sites de interesse</a>
+                    </div>
+                <a className="cta" href="#"><button>Inscreva-se</button></a>
             </div>
         </div>
     )
