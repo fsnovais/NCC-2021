@@ -1,3 +1,23 @@
+@import '../../global.scss';
+
 .activities {
-    background-color: aquamarine;
+    background-color: white;
+    h1{
+        color: $mainColor;
+        text-align: center;
+    }
+    .GridLaptop{
+        display: flex;
+        flex-direction: row;
+
+        Linha1{
+            align-items: center;
+            background-color: #dfdfe0;
+            padding: 1rem;
+            border-radius: 2rem;
+            img{
+                padding-bottom: 5rem;
+            }
+        }
+    }
 }
