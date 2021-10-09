@@ -1,3 +1,30 @@
 .intro{
-    background-color: cornflowerblue;
+    background-color: white;
+    display:flex; 
+    flex-direction: row;
+    
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 13rem;
+        h1{
+            font-size: 40px;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        
+        img {
+            cursor: pointer;  
+              height: auto;
+              width: auto;
+              max-height: 100%;
+              max-width: 100%;
+              vertical-align: middle;
+          }
+        
+    }
+    
 }

@@ -1,6 +1,5 @@
 import About from "./components/about/About";
 import Activities from "./components/activities/Activities";
-import Footbar from "./components/footbar/Footbar";
 import Intro from "./components/intro/Intro";
 import Objectives from "./components/objectives/Objectives";
 import Preparing from "./components/preparing/Preparing";
