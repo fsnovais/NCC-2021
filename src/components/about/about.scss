@@ -1,3 +1,21 @@
+@import "../../global.scss";
 .about {
-    background-color: coral;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    .title{
+        padding-left: 3rem;
+        color: $mainColor;
+        margin-bottom: 1rem;
+    }
+    .text{
+        padding: 0 2rem;
+        box-sizing: inherit;
+        font-size: 1.3em;
+        text-align: justify;
+
+    }
 }
