@@ -5,63 +5,48 @@ export default function Activities() {
     return (
         <div className="activities">
             <h1>Atividades</h1>
-            <div className='GridLaptop'>
-                <div className='Linha1'>
-                <div>
-                    <div>
+            <div className="div1">
+            <div className='ActivityContainer'>
+                <div className="item">
+                    <div className="img">
                         <img src="assets/laptop.png" alt="Lâmpada" />
                     </div>
-                    <div>
-                        <tex>
-                            Competições de programação regulares entre alunos
-                        </tex>
+                    <div className="text">
+                        Competições de programação regulares entre alunos
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div className="item">
+                    <div className="img">
                         <img src="assets/laptop.png" alt="Lâmpada" />
                     </div>
-                    <div>
-                        <tex>
-                            Aulas sobre tópicos avançados de programação
-                        </tex>
+                    <div className="text">
+                        Aulas sobre tópicos avançados de programação
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div className="item">
+                    <div className="img">
                         <img src="assets/laptop.png" alt="Lâmpada" />
                     </div>
-                    <div>
-                        <tex>
-                            Treinamento regular de resolução de problemas de programação
-                        </tex>
-                    </div>
+                    <div className="text">
+                        Treinamento regular de resolução de problemas de programação                    </div>
                 </div>
-                </div>
-                <div className='Linha2'>
-                <div>
-                    <div>
+                <div className="item down">
+                    <div className="img">
                         <img src="assets/laptop.png" alt="Lâmpada" />
                     </div>
-                    <div>
-                        <tex>
-                            Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação
-
-                        </tex>
+                    <div className="text">
+                        Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div className="item down">
+                    <div className="img">
                         <img src="assets/laptop.png" alt="Lâmpada" />
                     </div>
-                    <div>
-                        <tex>
-                            Sediar etapa(s) da Maratona de Programação da SBC - Sociedade Brasileira de Computação
-                        </tex>
-                    </div>
-                </div>
+                    <div className="text">
+                        Sediar etapa(s) da Maratona de Programação da SBC - Sociedade Brasileira de Computação                    </div>
                 </div>
             </div>
-        </div>
+            </div>
+        </div >
     )
 }
