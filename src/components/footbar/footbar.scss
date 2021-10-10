@@ -27,10 +27,27 @@
             }
         }
         .text{
+            display: flex;
+            padding-bottom: 2vw;
+           .left{
             padding: 2vw 5vw;
             font-size: 1.1rem;
             display: flex;
             flex-direction: column;
-
+            flex-grow: 0;
+            width: 80vw;
+           }
+           .right{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-around;
+            flex-grow: 1;
+            a{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            }
+           }
         }
     }

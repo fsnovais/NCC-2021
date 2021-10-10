@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import "../../../global.scss";
 
 .objectives {
     background-color: white;
@@ -40,10 +40,10 @@
             justify-content: space-between;
             width: 25%;
             margin: 1rem;
-            background-color: #E0DFDF;
+            background-color: #ffffff;
             cursor: pointer;
             font-weight: 500;
-            padding: 1rem;
+            padding: 2rem 1rem;
             border-radius: 2rem;
             transition: all 0.2s ease;
             &:hover{

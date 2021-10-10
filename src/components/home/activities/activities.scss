@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import "../../../global.scss";
 
 .activities {
     background-color: white;
@@ -32,10 +32,15 @@
                 &:hover{
                     background-color: #612692;
                     color: white;
+                    .icon{
+                        color: white;
+                    }
                 }
                 .img {
                     display: flex;
                     justify-content: center;
+                    padding: 1rem 0;
+                    color: black;
                 }
                 .text {
                     text-align: center;

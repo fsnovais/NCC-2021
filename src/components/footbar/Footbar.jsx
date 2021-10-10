@@ -32,11 +32,19 @@ export default function Footbar() {
                 </div>
             </div>
             <div className="text">
+                <div className="left">
                 <span>Central de Atendimento: (61) 3966-1201 - central.atendimento@uniceub.br</span>
                 <span>Unidades</span>
                 <span>Campus da Asa Norte: SEPN 707/907 - Campus Universitário</span>
                 <span>Campus II de Taguatinga: QS 1, Lote 1/17, Rua 214</span>
                 <span>Centro de Atendimento à Comunidade: Setor Comercial Sul, Quadra 1 - Edificio União, Brasília-DF</span>
+                </div>
+                <div className="right">
+                    <a href="https://www.ceubos.com.br">CeubOS</a>
+                    <a href="https://ctf.ceubos.com.com.br">Competições CTF</a>
+                    <a href="https://boca.ceubos.com.br">Treino ICPC</a>
+                    <a href="https://ia.ceubos.com.br">Turma IA</a>
+                </div>  
             </div>
 
             </div>
