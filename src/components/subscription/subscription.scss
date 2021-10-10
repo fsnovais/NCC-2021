@@ -1,3 +1,47 @@
+@import "../../global.scss";
+
 .subscription {
-    background-color: greenyellow;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    .title{
+        padding-left: 3rem;
+        color: $mainColor;
+        margin-bottom: 1rem;
+        flex-grow: 0;
+    }
+    .container{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .text{
+            padding: 2rem 5rem;
+            box-sizing: inherit;
+            font-size: 1.3em;
+            text-align: justify;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            button{
+                font-size: 1.2rem;
+                font-weight: 500;
+                padding: 13px 40px;
+                background-color: $mainColor;
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
+                border: none;
+                &:hover{
+                    background-color: $hoverColor;
+                }
+            }
+
+
+        }
+    }
 }
