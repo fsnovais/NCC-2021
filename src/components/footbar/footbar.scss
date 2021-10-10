@@ -1,3 +1,36 @@
+@import "../../global.scss";
+
 .footbar {
-    background-color: lightgreen;
-}
+    background-color: $mainColor;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+        display: flex;
+        .image{
+            padding: 1vw 5vw;
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                img{
+                    width: 5vw;
+                    height: 5vw;
+                }
+            }
+            .social{
+                display: flex;
+                align-items: center;
+                a{
+                    margin: 1rem;
+                }
+            }
+        }
+        .text{
+            padding: 2vw 5vw;
+            font-size: 1.1rem;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
