@@ -2,13 +2,27 @@ import Topbar from "./components/topbar/Topbar";
 import "./app.scss"
 import HomePage from "./components/home/HomePage";
 import Icpc from "./components/icpc/Icpc";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
+    <Router>
+      <div className="app">
       <Topbar />
-      <Icpc/>
+      <Switch>
+        <Route path="/" exact>
+          <HomePage/>
+        </Route>
+        <Route path="/icpc" exact>
+          <Icpc/>
+        </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 

@@ -2,7 +2,7 @@ import "./intro.scss"
 
 export default function Intro() {
     return (
-        <div className="intro">
+        <div className="intro" id="icpc">
             <div className="container">
                 <div className="title">
                     <h1>O que é o ICPC?</h1>
