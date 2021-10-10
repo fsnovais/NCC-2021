@@ -1,3 +1,42 @@
+@import "../../global.scss";
+
 .preparing {
-    background-color: darkslateblue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    .title{
+        padding-left: 3rem;
+        color: $mainColor;
+        margin-bottom: 1rem;
+        flex-grow: 0;
+    }
+    .container{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .text{
+            padding: 2rem 5rem;
+            box-sizing: inherit;
+            font-size: 1.3em;
+            text-align: justify;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            button{
+                padding: 0 2rem;
+                background-color: white;
+                border: 2px solid $mainColor;
+                border-radius: 15px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                height: 100px;
+                width: 350px;
+
+            }
+        }
+    }
 }
