@@ -1,5 +1,5 @@
 import "./subscription.scss"
-import Footbar from "../footbar/Footbar"
+import Footbar from "../../footbar/Footbar"
 
 export default function Subscription() {
     return (
