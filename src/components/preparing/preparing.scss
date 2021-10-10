@@ -35,8 +35,15 @@
                 font-weight: bold;
                 height: 100px;
                 width: 350px;
+                transition: all 0.2s ease;
+                cursor: pointer;
 
+                &:hover{
+                    background-color: $mainColor;
+                    color: white;
+                }
             }
+
         }
     }
 }
