@@ -11,6 +11,10 @@
         color: $mainColor;
         margin-bottom: 1rem;
         flex-grow: 0;
+        @include mobile{
+            height: 10vh;
+            margin: 0;
+        }
     }
     .container{
         flex-grow: 1;
@@ -22,6 +26,10 @@
             box-sizing: inherit;
             font-size: 1.3em;
             text-align: justify;
+            @include mobile{
+                font-size: 1.1em;
+                padding: 1em 1em;
+            }
         }
         .buttons{
             display: flex;
@@ -29,13 +37,16 @@
             button{
                 font-size: 1.2rem;
                 font-weight: 500;
-                padding: 13px 40px;
+                padding: 0.5em 1em;
                 background-color: $mainColor;
                 color: white;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
                 border: none;
+                @include mobile {
+                    margin-bottom: 1em;
+                }
                 &:hover{
                     background-color: $hoverColor;
                 }

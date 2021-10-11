@@ -5,7 +5,9 @@ import { faCode} from "@fortawesome/free-solid-svg-icons";
 export default function Activities() {
     return (
         <div className="activities">
+            <div className="title">
             <h1>Atividades</h1>
+            </div>
             <div className="div1">
             <div className='ActivityContainer'>
                 <div className="item">

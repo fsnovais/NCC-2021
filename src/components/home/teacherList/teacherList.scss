@@ -19,12 +19,17 @@
         justify-content: center;
         margin: 4rem;
         width: 95vw;
+
     .imgContainer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         height: 30vh;
+        @include mobile{
+            flex-wrap: wrap;
+            height: 100vh;
+        }
     }
     .item{
         display: flex;
@@ -32,9 +37,6 @@
         align-items: center;
         transition: all 0.6s ease;
 
-        &:hover{
-            transform: scale(1.1);
-        }
 
         .name{
             font-size: 1.2rem;

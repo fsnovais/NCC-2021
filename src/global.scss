@@ -1,2 +1,10 @@
 $mainColor:#43054E;
 $hoverColor:#220627;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

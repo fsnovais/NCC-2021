@@ -12,7 +12,7 @@ export default function Preparing() {
             </div>
                 <div className="buttons">
                     <a href="#">
-                        <button>Seletiva para Maratona de Programação</button>
+                        <button>Seletiva para a Maratona</button>
                     </a>
                     <a href="#">
                         <button>Desafios Propostos</button>

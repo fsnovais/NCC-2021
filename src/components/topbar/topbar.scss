@@ -39,6 +39,9 @@
             a {
                 padding: 0px 4rem;
             }
+            @include mobile{
+                display: none;
+            }
         }
 
         button{
@@ -49,9 +52,36 @@
             cursor: pointer;
             transition: all 0.3s ease 0s;
             border: none;
+            @include mobile{
+                display: none;
+            }
         }
         button:hover{
             background-color: $hoverColor;
+        }
+
+        .right{
+            display: none;
+            @include mobile{
+                display: block;
+            }
+            .hamburguer{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 1s ease;
+                }
+            }
+        
         }
     }
 }

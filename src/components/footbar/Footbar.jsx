@@ -15,19 +15,19 @@ export default function Footbar() {
                 </div>
                 <div className="social">
                     <a href="https://www.facebook.com/uniceub">
-                    <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
+                    <FontAwesomeIcon className="social-icon" icon={faFacebook} color="white" />
                     </a>
                     <a href="https://twitter.com/uniceub">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" color="white" />
+                    <FontAwesomeIcon className="social-icon" icon={faTwitter} color="white" />
                     </a>
                     <a href="https://www.linkedin.com/school/uniceub-centro-universitario-de-brasilia/?originalSubdomain=pt">
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" color="white"/>
+                    <FontAwesomeIcon className="social-icon" icon={faLinkedin} color="white"/>
                     </a>
                     <a href="http://instagram.com/uniceub_oficial">
-                    <FontAwesomeIcon icon={faInstagram} size="2x" color="white"/>
+                    <FontAwesomeIcon className="social-icon" icon={faInstagram}  color="white"/>
                     </a>
                     <a href="https://www.youtube.com/user/uniceub">
-                    <FontAwesomeIcon icon={faYoutube} size="2x" color="white"/>
+                    <FontAwesomeIcon className="social-icon" icon={faYoutube} color="white"/>
                     </a>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function Footbar() {
                 <span>Centro de Atendimento à Comunidade: Setor Comercial Sul, Quadra 1 - Edificio União, Brasília-DF</span>
                 </div>
                 <div className="right">
-                    <a href="https://www.ceubos.com.br">CeubOS</a>
+                <a href="https://www.ceubos.com.br">CeubOS</a>
                     <a href="https://ctf.ceubos.com.com.br">Competições CTF</a>
                     <a href="https://boca.ceubos.com.br">Treino ICPC</a>
                     <a href="https://ia.ceubos.com.br">Turma IA</a>

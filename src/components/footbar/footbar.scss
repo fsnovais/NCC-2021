@@ -16,6 +16,10 @@
                 img{
                     width: 5vw;
                     height: 5vw;
+                    @include mobile {
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
             .social{
@@ -23,6 +27,12 @@
                 align-items: center;
                 a{
                     margin: 1rem;
+                    .social-icon{
+                        font-size: 30px;
+                        @include mobile {
+                            font-size: 20px;
+                        }
+                    }
                 }
             }
         }
@@ -36,6 +46,9 @@
             flex-direction: column;
             flex-grow: 0;
             width: 80vw;
+            @include mobile{
+                display: none;
+            }
            }
            .right{
             display: flex;
@@ -43,6 +56,10 @@
             align-items: start;
             justify-content: space-around;
             flex-grow: 1;
+            @include mobile {
+                flex-direction: row;
+                margin-bottom: 2em;
+            }
             a{
             text-decoration: none;
             color: white;
