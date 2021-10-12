@@ -14,7 +14,8 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <div className="itemContainer">
                         <Link to="/#intro">Home</Link>
                         <Link to="/icpc#icpc">ICPC</Link>
-                        <Link to="/icpc#sites">Sites de interesse</Link>
+                        <Link to="/ctf#ctf">CTF</Link>
+                        <Link to="/sites">Sites de interesse</Link>
                 </div>
                 <a className="cta" href="https://forms.gle/h6qAFNfrv9ePnENBA" target="_blank" rel="noreferrer"> <button>Inscreva-se</button></a>
                 <div className="right">

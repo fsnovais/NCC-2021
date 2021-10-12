@@ -6,6 +6,9 @@ export default function Intro() {
             <div className="container">
             <div className='left'>
                 <h1>Núcleo de Computação Competitiva</h1>
+                <div className="home-info">
+                Projeto de fomento em competições de computação do CEUB, que visa fomentar nos alunos da graduação e pós-graduação, a cultura de participação em competições da área de computação.
+                </div>
             </div>
             <div className='right'>
                 <img src="assets/notebook.png" alt="Notebook" />

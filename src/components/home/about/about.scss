@@ -1,13 +1,17 @@
 @import "../../../global.scss";
 .about {
-    background-color: white;
-    display: flex;
+    background-color: $mainColor;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    display: none;
+    @include mobile{
+    display: flex;
+
+    }
     .title{
         padding-left: 3rem;
-        color: $mainColor;
+        color: $subColor;
         margin-bottom: 1rem;
     }
     .text{
@@ -15,6 +19,7 @@
         box-sizing: inherit;
         font-size: 1.3em;
         text-align: justify;
+        color: white;
 
     }
 }

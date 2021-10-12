@@ -8,7 +8,7 @@ export default function Objectives() {
                 Nossos objetivos
             </h1>
             <text>
-                Investir na formação e desenvolvimento de talentos para participar de competições de programação e computação, contribuindo para melhor qualificá-los para o mercado de trabalho de alta tecnologia, assim como aumentar a visibilidade do UniCEUB em tais competições.
+            Investir na formação e desenvolvimento de talentos para participar de competições na área de computação, contribuindo para melhor qualificá-los para o mercado de trabalho de alta tecnologia, assim como aumentar a visibilidade do CEUB em competições de programação e segurança da informação.
             </text>
             </div>
 
@@ -19,7 +19,7 @@ export default function Objectives() {
                    </div>
                     <div className="text">
                     <text>
-                        Promover a troca de experiências acadêmicas, por meio da interação dos nossos alunos com alunos de outras universidades, como resultado das participações nas competições nacionais e internacionais.
+                    Formar recursos humanos qualificados e experientes em técnicas avançadas de programação e segurança da informação, incluindo tópicos não cobertos pelo currículo básico dos cursos de ciências e engenharia da computação;
                     </text>
                     </div>
                 </div>
@@ -29,7 +29,8 @@ export default function Objectives() {
                     </div>
                     <div className="text">
                     <text>
-                        Formar recursos humanos qualificados e experientes em técnicas avançadas de programação, incluindo tópicos não cobertos pelo currículo básico dos cursos de computação.
+                    Fomentar a participação dos alunos em competições de alto nível, nacionais e internacionais, como um recurso de formação complementar para desenvolver habilidades de raciocínio lógico, colaboração e trabalho em equipe, e desenvolvimento de soluções dentro de prazos bem definidos;
+
                     </text>
                     </div>
                 </div>
@@ -39,7 +40,8 @@ export default function Objectives() {
                     </div>
                     <div className="text">
                     <text>
-                        Melhorar a visibilidade do UniCEUB em competições de programação de alto nível, reforçando assim o compromisso de busca pela excelência no ensino da instituição.
+                    Promover a troca de experiências acadêmicas, por meio da interação dos nossos alunos com alunos de outras universidades, como resultado das participações nas competições nacionais e internacionais;
+
                     </text>
                     </div>
                 </div>
@@ -49,7 +51,7 @@ export default function Objectives() {
                     </div>
                     <div className="text">
                     <text>
-                        Fomentar a participação dos alunos em competições de programação de alto nível, nacionais e internacionais, como um recurso de formação complementar para desenvolver habilidades de raciocínio lógico, colaboração e trabalho em equipe, e desenvolvimento de soluções dentro de prazos bem definidos.
+                    Melhorar a visibilidade do CEUB em competições de programação e segurança da informação de alto nível, reforçando assim o compromisso de busca pela excelência no ensino da instituição.
                     </text>
                     </div>
                 </div>

@@ -1,0 +1,45 @@
+@import "../../../global.scss";
+
+.rules {
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    .title{
+        padding-left: 3rem;
+        color: $subColor;
+        margin-bottom: 1rem;
+        flex-grow: 0;
+        font-size: 1.5rem;
+
+        @include mobile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            width: 100%;
+            height: 20vh;
+            margin-bottom: 0;
+        }
+    }
+    .container{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .text{
+            padding: 2rem 5rem;
+            box-sizing: inherit;
+            font-size: 1.3em;
+            text-align: justify;
+            color: white;
+            @include mobile{
+                padding: 1rem 2rem;
+                font-size: 1.2em;
+            }
+        }
+
+    }
+}

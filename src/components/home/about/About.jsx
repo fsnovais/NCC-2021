@@ -8,7 +8,8 @@ export default function About() {
             </div>
             <div className="text">
 
-            O <text style={{fontWeight: "bold"}}>“Núcleo de Computação Competitiva (NCC)”</text> é um projeto da seleção de programação competitiva do <text style={{fontWeight: "bold"}}>UniCEUB</text>, sob curadoria do prof Aderbal Botelho, que visa fomentar nos alunos da graduação e pós-graduação, a cultura de participação em competições de programação, fomentando o desenvolvimento técnico, a capacidade de raciocínio lógico, e a colaboração e trabalho em grupo para a resolução de problemas computacionais.
+            O <text style={{fontWeight: "bold"}}>“Núcleo de Computação Competitiva (NCC)”</text> é um projeto de fomento em competições de computação do CEUB, sob curadoria do prof <text style={{fontWeight: "bold"}}>Aderbal Botelho</text>, que visa fomentar nos alunos da graduação e pós-graduação, a cultura de participação em competições da área de computação, fomentando o desenvolvimento técnico, a capacidade de raciocínio lógico, e a colaboração e trabalho em grupo para a resolução de problemas computacionais na programação e segurança da informação.
+
 
             </div>
         </div>

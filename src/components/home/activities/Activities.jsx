@@ -16,7 +16,7 @@ export default function Activities() {
                         
                     </div>
                     <div className="text">
-                        Competições de programação regulares entre alunos
+                    Competições de programação regulares entre alunos
                     </div>
                 </div>
                 <div className="item">
@@ -24,7 +24,7 @@ export default function Activities() {
                     <FontAwesomeIcon className="icon" icon={faCode} size="4x" />
                     </div>
                     <div className="text">
-                        Aulas sobre tópicos avançados de programação
+                    Aulas sobre tópicos avançados de programação e segurança da informação
                     </div>
                 </div>
                 <div className="item">
@@ -32,14 +32,15 @@ export default function Activities() {
                     <FontAwesomeIcon className="icon" icon={faCode} size="4x" />
                     </div>
                     <div className="text">
-                        Treinamento regular de resolução de problemas de programação                    </div>
+                    Treinamento regular de resolução de problemas de programação e segurança da informação
+                  </div>
                 </div>
                 <div className="item down">
                     <div className="img">
                     <FontAwesomeIcon className="icon" icon={faCode} size="4x" />
                     </div>
                     <div className="text">
-                        Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação
+                    Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação, CTFs, Bug voucher e competições privadas
                     </div>
                 </div>
                 <div className="item down">
@@ -47,7 +48,8 @@ export default function Activities() {
                     <FontAwesomeIcon className="icon" icon={faCode} size="4x" />
                     </div>
                     <div className="text">
-                        Sediar etapa(s) da Maratona de Programação da SBC - Sociedade Brasileira de Computação                    </div>
+                    Sediar etapa(s) da Maratona de Programação da SBC - Sociedade Brasileira de Computação, Competições de CTFs (capture the flags)
+                    </div>
                 </div>
             </div>
             </div>

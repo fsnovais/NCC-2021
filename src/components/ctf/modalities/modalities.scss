@@ -1,23 +1,22 @@
 @import "../../../global.scss";
 
-.subscriptions {
-    background-color: white;
+.modalities {
+    background-color: $mainColor;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
     .title{
         padding-left: 3rem;
-        color: $mainColor;
-        margin-bottom: 1rem;
+        color: $subColor;
         flex-grow: 0;
-        font-size: 1.5rem;
-        @include mobile{
         font-size: 1.4rem;
-
-            padding: 0;
-            height: 12vh;
-            margin-bottom: 0;
+        margin: 1em;
+        height: 10vh;
+        padding: 0;
+        margin-bottom: 0;
+        @include mobile{
+            height: 20vh;
         }
     }
     .container{
@@ -35,15 +34,23 @@
                 padding: 1rem 2rem;
                 font-size: 1.2em;
             }
+
+            .name{
+                font-weight: 500;
+                margin: 5px 0;
+                color:$subColor;
+                font-size: 1em;
+            }
+            .description{
+                color: white;
+                font-size: 0.8em;
+
+            }
         }
         .buttons{
             display: flex;
             justify-content: space-around;
-            @include mobile{
-                margin: 1em 0;
-                height: 10vh;
-            }
-            .button{
+            button{
                 font-size: 1.2rem;
                 font-weight: 500;
                 padding: 1rem 4rem;
@@ -53,9 +60,6 @@
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
                 border: none;
-                @include mobile {
-                    font-size: 0.9em;
-                }
                 &:hover{
                     background-color: $hoverColor;
                 }

@@ -25,12 +25,16 @@
             .social{
                 display: flex;
                 align-items: center;
+                @include mobile{
+                    margin: 10px;
+                }
                 a{
                     margin: 1rem;
                     .social-icon{
                         font-size: 30px;
                         @include mobile {
                             font-size: 20px;
+                            padding: 0;
                         }
                     }
                 }
@@ -57,8 +61,9 @@
             justify-content: space-around;
             flex-grow: 1;
             @include mobile {
+                padding-bottom: 1em;
                 flex-direction: row;
-                margin-bottom: 2em;
+                margin-bottom: 1em;
             }
             a{
             text-decoration: none;

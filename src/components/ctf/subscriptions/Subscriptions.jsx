@@ -9,12 +9,12 @@ export default function Subscriptions() {
             </div>
             <div className="container">
                 <div className="text">
-                A inscrição é feita diretamente no site do ICPC, pois não há pagamento de taxa de inscrição. A inscrição dos times no site do ICPC deve ser feita pelo coach na sede da sua região.
+                Você pode se inscrever no site e começar a resolver problemas para ganhar pontos e subir no ranking.
 
             </div>
                 <div className="buttons">
-                    <a href="https://icpc.global/" target="_blank" rel="noreferrer">
-                        <button className="button">Acessar</button>
+                    <a href="https://capturetheflag.com.br/" target="_blank" rel="noreferrer">
+                        <button>Acessar</button>
                     </a>
 
                 </div>

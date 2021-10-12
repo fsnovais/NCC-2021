@@ -1,11 +1,11 @@
 import {useState} from "react";
-
-
 import Topbar from "./components/topbar/Topbar";
 import "./app.scss"
 import HomePage from "./components/home/HomePage";
 import Icpc from "./components/icpc/Icpc";
+import CTF from './components/ctf/CTF';
 import Menu from "./components/menu/Menu";
+import Sites from "./components/sites/Sites";
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,6 +27,12 @@ function App() {
         </Route>
         <Route path="/icpc" exact>
           <Icpc/>
+        </Route>
+        <Route path="/ctf" exact>
+          <CTF/>
+        </Route>
+        <Route path="/sites" exact>
+          <Sites/>
         </Route>
       </Switch>
     </div>

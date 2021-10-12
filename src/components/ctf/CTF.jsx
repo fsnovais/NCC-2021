@@ -1,13 +1,13 @@
 import React from 'react'
 import Intro from './intro/Intro'
-import Rules from "./rules/Rules";
+import Modalities from './modalities/Modalities';
 import Subscriptions from './subscriptions/Subscriptions'
 
-export default function icpc() {
+export default function CTF() {
     return (
         <div className="sections">
         <Intro/>
-        <Rules/>
+        <Modalities/>
         <Subscriptions/>
         </div>
     )
