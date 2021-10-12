@@ -14,7 +14,7 @@ export default function Subscriptions() {
 
             </div>
                 <div className="buttons">
-                    <a href="https://icpc.global/" target="_blank">
+                    <a href="https://icpc.global/" target="_blank" rel="noreferrer">
                         <button>Acessar</button>
                     </a>
 

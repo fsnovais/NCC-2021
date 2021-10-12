@@ -15,7 +15,7 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <Link className="menu-link" to="/icpc#sites">Sites de interesse</Link>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                <a href="#" target="_blank"> <button>Inscreva-se</button></a>
+                <a href="https://forms.gle/h6qAFNfrv9ePnENBA" target="_blank" rel="noreferrer"> <button>Inscreva-se</button></a>
                 </li>
             </ul>
         </div>

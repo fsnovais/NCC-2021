@@ -15,7 +15,7 @@ export default function Subscription() {
 
             </div>
                 <div className="buttons">
-                    <a href="#">
+                    <a href="https://forms.gle/h6qAFNfrv9ePnENBA">
                         <button>Inscreva-se</button>
                     </a>
 

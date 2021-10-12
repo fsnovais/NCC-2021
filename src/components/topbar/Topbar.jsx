@@ -16,7 +16,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                         <Link to="/icpc#icpc">ICPC</Link>
                         <Link to="/icpc#sites">Sites de interesse</Link>
                 </div>
-                <a className="cta" href="#" target="_blank"> <button>Inscreva-se</button></a>
+                <a className="cta" href="https://forms.gle/h6qAFNfrv9ePnENBA" target="_blank" rel="noreferrer"> <button>Inscreva-se</button></a>
                 <div className="right">
                     <div className="hamburguer" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
