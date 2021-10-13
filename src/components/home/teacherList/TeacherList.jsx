@@ -43,7 +43,10 @@ export default function TeacherList() {
                     <img src="assets/Eduardo.png" alt="Aderbal" />
                     <div className="text">Eduardo Afonso</div>
                 </div>
-                <div class="bubble x10"></div>
+                <div class="bubble x10">
+                <img src="assets/Gustavo.png" alt="Aderbal" />
+                    <div className="text">Gustavo Corrêa</div>
+                </div>
             </div>
         </div>
     )

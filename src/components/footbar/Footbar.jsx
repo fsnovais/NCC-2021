@@ -44,6 +44,8 @@ export default function Footbar() {
                     <a href="https://ctf.ceubos.com.br">Competições CTF</a>
                     <a href="https://boca.ceubos.com.br/boca">Treino ICPC</a>
                     <a href="https://ia.ceubos.com.br">Turma IA</a>
+                    <a href="https://jenkins.ceubos.com.br/">Automatizador de processos</a>
+                    <a href="https://koop.ceubos.com.br/">Projetos colaborativos</a>
                 </div>
             </div>
         </div>

@@ -12,6 +12,7 @@
             padding: 1vw 5vw;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .logo{
                 img{
                     width: 5vw;
@@ -64,11 +65,15 @@
                 padding-bottom: 1em;
                 flex-direction: row;
                 margin-bottom: 1em;
+                flex-wrap: wrap;
             }
             a{
             text-decoration: none;
             color: white;
             font-weight: 500;
+            @include mobile {
+                margin-bottom: 10px;
+            }
             }
            }
         }
