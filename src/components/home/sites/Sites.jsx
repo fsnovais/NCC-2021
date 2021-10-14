@@ -1,5 +1,5 @@
 import "./sites.scss";
-import Footbar from "../footbar/Footbar";
+import Footbar from "../../footbar/Footbar";
 export default function Sites() {
     return (
         <div className="sections">

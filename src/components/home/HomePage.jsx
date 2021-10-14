@@ -4,8 +4,9 @@ import Activities from './activities/Activities'
 import Intro from './intro/Intro'
 import Objectives from './objectives/Objectives'
 import Preparing from './preparing/Preparing'
-import Subscription from './subscription/Subscription'
+// import Subscription from './subscription/Subscription'
 import TeacherList from './teacherList/TeacherList'
+import Sites from './sites/Sites'
 
 export default function HomePage() {
     return (
@@ -16,7 +17,7 @@ export default function HomePage() {
         <Activities />
         <Preparing />
         <TeacherList />
-        <Subscription />
+        <Sites/>
       </div>
     )
 }
