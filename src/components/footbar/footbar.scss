@@ -64,17 +64,30 @@
             @include mobile {
                 padding-bottom: 1em;
                 flex-direction: row;
-                margin-bottom: 1em;
                 flex-wrap: wrap;
             }
             a{
             text-decoration: none;
             color: white;
             font-weight: 500;
-            @include mobile {
-                margin-bottom: 10px;
-            }
+            font-size: 0.9em;
             }
            }
+        }
+        .developed{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 1rem;
+            @include mobile{
+                margin: 0;
+                padding: 1rem 1rem;
+                font-size: 0.8em;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+            }
         }
     }

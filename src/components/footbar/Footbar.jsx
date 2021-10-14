@@ -48,6 +48,9 @@ export default function Footbar() {
                     <a href="https://koop.ceubos.com.br/">Projetos colaborativos</a>
                 </div>
             </div>
+            <div className="developed">
+            Desenvolvido com ❤ por &nbsp;<a href="https://github.com/phellippe" target="_blank" rel="noopener noreferrer">Felipe Novais</a> &nbsp;e&nbsp; <a href="https://github.com/LanCaroline" target="_blank" rel="noopener noreferrer"> Lana Caroline</a>
+            </div>
         </div>
     )
 }
