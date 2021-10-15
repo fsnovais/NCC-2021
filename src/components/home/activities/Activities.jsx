@@ -40,7 +40,7 @@ export default function Activities() {
                     <FontAwesomeIcon className="icon" icon={faCode} size="4x" />
                     </div>
                     <div className="text">
-                    Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação, CTFs, Bug voucher e competições privadas
+                    Participação das edições regulares da Maratona de Programação da SBC - Sociedade Brasileira de Computação, CTFs, Bug bounty e competições privadas
                     </div>
                 </div>
                 <div className="item down">
