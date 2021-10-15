@@ -8,7 +8,7 @@ export default function Preparing() {
             </div>
             <div className="container">
                 <div className="text">
-                    AA seleção para  para participar de um dos times aptos a participar  tanto dos eventos de programação competitiva como das competições de segurança da informação podem ser realizadas através do formulário clicando em inscreva-se. após isso, você receberá um email com instruções para acesso às plataformas de treinamento e seleção, Boca (programação competitiva ou CTFd (segurança da informação).
+                    A seleção para  para participar de um dos times aptos a participar  tanto dos eventos de programação competitiva como das competições de segurança da informação podem ser realizadas através do formulário clicando em inscreva-se. após isso, você receberá um email com instruções para acesso às plataformas de treinamento e seleção, Boca (programação competitiva ou CTFd (segurança da informação).
             </div>
                 <div className="buttons">
                     <a href="https://boca.ceubos.com.br/boca" target="_blank" rel="noreferrer">
