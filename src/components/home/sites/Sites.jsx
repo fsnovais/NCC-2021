@@ -11,10 +11,10 @@ export default function Sites() {
                     XXIII Olimpíada Brasileira de Informática
                 </a>
                 <a className="item" href="https://www.urionlinejudge.com.br/judge/en/login"target="_blank" rel="noreferrer">
-                Maratona SBC de Programação
+                URI Online Judge
                 </a>
                 <a className="item" href="http://maratona.sbc.org.br/"target="_blank" rel="noreferrer">
-                UVA Online Judge                    
+                Maratona SBC                    
                 </a>
                 <a className="item" href="https://book.hacktricks.xyz/" target="_blank" rel="noreferrer">
                 HackTricks
