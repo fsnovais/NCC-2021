@@ -15,8 +15,8 @@
             align-items: center;
             .logo{
                 img{
-                    width: 5vw;
-                    height: 5vw;
+                    width: 7vw;
+                    height: 7vw;
                     @include mobile {
                         width: 50px;
                         height: 50px;
@@ -43,6 +43,7 @@
         }
         .text{
             display: flex;
+            flex-direction: column;
            .left{
             padding: 2vw 5vw;
             font-size: 1.1rem;
@@ -56,10 +57,11 @@
            }
            .right{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: flex-start;
             justify-content: space-around;
             flex-grow: 1;
+            padding-bottom: 2em;
             @include mobile {
                 padding-bottom: 1em;
                 flex-direction: row;

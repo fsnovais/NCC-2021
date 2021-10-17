@@ -9,35 +9,32 @@ export default function Footbar() {
         <div className="footbar">
             <div className="image">
                 <div className="logo">
-                    <a href="https://www.uniceub.br/">
-                        <img src="assets/logoCEUB2021.png" alt="UniCEUB" />
+                <a href="https://ncc.ceubos.com.br/">
+                        <img src="assets/LogoNCC2021.png" alt="NCC" />
                     </a>
                 </div>
                 <div className="social">
-                    <a href="https://www.facebook.com/uniceub">
+                    <a href="https://www.facebook.com/prof.aderbal">
                         <FontAwesomeIcon className="social-icon" icon={faFacebook} color="white" />
                     </a>
-                    <a href="https://twitter.com/uniceub">
+                    <a href="https://twitter.com/aderbalbotelho">
                         <FontAwesomeIcon className="social-icon" icon={faTwitter} color="white" />
                     </a>
-                    <a href="https://www.linkedin.com/school/uniceub-centro-universitario-de-brasilia/?originalSubdomain=pt">
+                    <a href="https://www.linkedin.com/in/aderbalbotelho/">
                         <FontAwesomeIcon className="social-icon" icon={faLinkedin} color="white" />
                     </a>
-                    <a href="http://instagram.com/uniceub_oficial">
+                    <a href="https://www.instagram.com/aderbalbotelho/">
                         <FontAwesomeIcon className="social-icon" icon={faInstagram} color="white" />
                     </a>
-                    <a href="https://www.youtube.com/user/uniceub">
+                    <a href="https://www.youtube.com/channel/UCmH7uiBtICUMmAKUG1ipt6Q">
                         <FontAwesomeIcon className="social-icon" icon={faYoutube} color="white" />
                     </a>
                 </div>
             </div>
             <div className="text">
-                <div className="left">
-                    <span>Central de Atendimento: (61) 3966-1201 - central.atendimento@uniceub.br</span>
-                    <span>Unidades</span>
-                    <span>Campus da Asa Norte: SEPN 707/907 - Campus Universitário</span>
-                    <span>Campus II de Taguatinga: QS 1, Lote 1/17, Rua 214</span>
-                    <span>Centro de Atendimento à Comunidade: Setor Comercial Sul, Quadra 1 - Edificio União, Brasília-DF</span>
+            <div className="left">
+                    <span>Contato: (61) 98210-4404</span>
+                    <span>Email: aderbal.neto@ceub.edu.br</span>
                 </div>
                 <div className="right">
                     <a href="https://www.ceubos.com.br" target="_blank" rel="noopener noreferrer">CeubOS</a>
